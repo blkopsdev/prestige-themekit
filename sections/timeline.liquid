@@ -1,6 +1,22 @@
 <section id="section-{{ section.id }}" class="Section Section--spacingNormal" data-section-id="{{ section.id }}" data-section-type="timeline">
   <div class="Container">
+    {%- if section.settings.title != blank -%}
+      <h2 class="SectionHeader__Heading Heading u-h1 Text--alignCenter">{{ section.settings.title | escape }}</h2>
+    {%- endif -%}
+
     <div class="Timeline">
+      {%- if section.blocks.size >= 2 -%}
+        <div class="Timeline__Nav">
+          <div class="Timeline__NavWrapper {% if section.blocks.size <= 3 %}Timeline__NavWrapper--center{% endif %}">
+            {%- for block in section.blocks -%}
+              <button type="button" class="Timeline__NavItem {% if forloop.first %}is-selected{% endif %} Link Link--primary" data-index="{{ forloop.index0 }}">
+                <span class="Timeline__NavLabel">{{ block.settings.title | truncate: 20 | escape }}</span>
+              </button>
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endif -%}
+
       <div class="Timeline__ListItem">
         {%- for block in section.blocks -%}
           <div {{ block.shopify_attributes }} class="Timeline__Item {% if forloop.first %}is-selected{% endif %}" data-index="{{ forloop.index0 }}">
@@ -49,18 +65,7 @@
           </div>
         {%- endfor -%}
       </div>
-
-      {%- if section.blocks.size >= 2 -%}
-        <div class="Timeline__Nav">
-          <div class="Timeline__NavWrapper {% if section.blocks.size <= 3 %}Timeline__NavWrapper--center{% endif %}">
-            {%- for block in section.blocks -%}
-              <button type="button" class="Timeline__NavItem {% if forloop.first %}is-selected{% endif %} Link Link--primary" data-index="{{ forloop.index0 }}">
-                <span class="Timeline__NavLabel">{{ block.settings.title | truncate: 20 | escape }}</span>
-              </button>
-            {%- endfor -%}
-          </div>
-        </div>
-      {%- endif -%}
+      
     </div>
   </div>
 </section>
@@ -69,6 +74,10 @@
   #section-{{ section.id }} .Timeline__ListItem {
     color: {{ section.settings.text_color }};
   }
+
+  #section-{{ section.id }} {
+    background-color: {{ section.settings.section_bg_color }}
+  }
 </style>
 
 {% schema %}
@@ -76,6 +85,18 @@
   "name": "Timeline",
   "class": "shopify-section--bordered shopify-section--timeline",
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Heading",
+      "default": "Timeline"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#ffffff"
+    },
     {
       "type": "color",
       "id": "text_color",

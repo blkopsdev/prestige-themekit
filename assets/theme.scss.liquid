@@ -11255,7 +11255,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   }
 
   .Timeline__Item {
-    align-items: flex-end;
+    align-items: center;
     background-color: $light-background;
   }
 
@@ -11339,14 +11339,16 @@ $vertical-spacing-two-products-per-row  : 0px;
   letter-spacing: inherit;
   vertical-align: text-bottom;
   transition: all 0.25s ease-in-out;
+  margin: 0 15px;
+  background: white;
 
   &::after {
     position: absolute;
     content: '';
     bottom: 0;
-    left: 20px;
+    left: 0;
     height: 3px;
-    width: calc(100% - 40px - 0.2em);
+    width: 100%;
     opacity: 0;
     background: $text-color;
     transform: scale(0, 1);
@@ -11356,7 +11358,7 @@ $vertical-spacing-two-products-per-row  : 0px;
 }
 
 .Timeline__NavItem.is-selected {
-  font-size: to-size(18px);
+  /*font-size: to-size(18px);*/
   color: $text-color;
 
   &::after {
@@ -11376,7 +11378,8 @@ $vertical-spacing-two-products-per-row  : 0px;
   }
 
   .Timeline__Nav {
-    margin-top: 40px;
+    /*margin-top: 30px;*/
+    margin-bottom: 20px;
     background: none;
     font-size: to-size(12px);
   }
@@ -11394,7 +11397,8 @@ $vertical-spacing-two-products-per-row  : 0px;
 
 @include av-mq('desk') {
   .Timeline__Nav {
-    margin-top: 65px;
+    /*margin-top: 30px;*/
+    margin-bottom: 20px;
   }
 }
 
