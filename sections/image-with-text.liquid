@@ -1,9 +1,5 @@
 <section id="section-{{ section.id }}" class="Section Section--spacingNormal" data-section-id="{{ section.id }}" data-section-type="timeline">
   <div class="Container">
-    {%- if section.settings.title != blank -%}
-      <h2 class="SectionHeader__Heading Heading u-h1 Text--alignCenter">{{ section.settings.title | escape }}</h2>
-    {%- endif -%}
-
     <div class="Timeline">
       {%- if section.blocks.size >= 2 -%}
         <div class="Timeline__Nav">
@@ -86,7 +82,7 @@
 
 {% schema %}
 {
-  "name": "Timeline",
+  "name": "Image with text",
   "class": "shopify-section--bordered shopify-section--timeline",
   "settings": [
     {
@@ -98,7 +94,7 @@
     {
       "type": "color",
       "id": "section_bg_color",
-      "label": "Section Background Color",
+      "label": "Background Color",
       "default": "#ffffff"
     },
     {
@@ -167,25 +163,13 @@
   "presets": [
     {
       "category": "Text",
-      "name": "Timeline",
+      "name": "Image with Text",
       "settings": {},
       "blocks": [
         {
           "type": "item",
           "settings": {
             "title": "2000"
-          }
-        },
-        {
-          "type": "item",
-          "settings": {
-            "title": "2001"
-          }
-        },
-        {
-          "type": "item",
-          "settings": {
-            "title": "2002"
           }
         }
       ]

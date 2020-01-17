@@ -11207,6 +11207,7 @@ $vertical-spacing-two-products-per-row  : 0px;
 }
 
 .Timeline__Item.is-selected {
+  border-radius: 10px;
   opacity: 1;
   pointer-events: auto;
 
@@ -11268,6 +11269,8 @@ $vertical-spacing-two-products-per-row  : 0px;
   .Timeline__ImageWrapper {
     position: relative;
     height: 100%;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
 
     &::after {
       display: none; /* Remove any contrast that may have been added to image */
@@ -11515,6 +11518,36 @@ h2.ArticleItem__Title.Heading.u-h2 {
 
     .SectionHeader__Description {
       margin: 0 auto;
+    }
+  }
+}
+
+.Timeline__Inner {
+  .Link {
+    font-weight: bold;
+  }
+
+  .Link--underline:hover {
+    color: #7ca1cb;
+  }
+
+  .Link--underline:hover::before {
+    transform: unset;
+
+  }
+}
+
+#shopify-section-1576483502632 {
+  .ArticleListWrapper {
+    .ArticleItem {
+      padding-bottom: 22px;
+      background-color: white;
+      border-radius: 10px;
+
+      .ArticleItem__ImageWrapper {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
     }
   }
 }

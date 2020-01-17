@@ -83,12 +83,24 @@
   </div>
 </section>
 
+<style type="text/css">
+  #section-{{ section.id }} {
+    background-color: {{ section.settings.bgcolor }};
+  }
+</style>
+
 {% schema %}
 {
   "name": "Blog posts",
   "class": "shopify-section--bordered",
   "max_blocks": 1,
   "settings": [
+    {
+      "type": "color",
+      "id": "bgcolor",
+      "label": "Background Color",
+      "default": "#000000"
+    },
     {
       "type": "text",
       "id": "subheading",
