@@ -193,17 +193,6 @@
       "timeline": {
         "type": "timeline",
         "blocks": {
-          "item-1": {
-            "type": "item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/serum.jpg",
-              "apply_overlay": false,
-              "title": "SERUM",
-              "subheading": "",
-              "heading": "BLEMISH-BE-GONE",
-              "content": "<p>Anti-inflammatory CBD powers an extraordinary blend of natural ingredients including Burdock Root, Pine Bark Extract, Algae, Irish Moss, Melaleuca, Rosemary and Tea Tree oil to create and &nbsp;support healthy skin that is inhospitable to breakouts. &nbsp;The formula enables exfoliation of irritants and simultaneously hydrates the skin. &nbsp;<\/p>\n<p><a href=\"\/products\/blemish-be-gone-serum\" title=\"Blemish-Be-Gone Serum\"><strong>Shop Now<\/strong><\/a><\/p>"
-            }
-          },
           "item-0": {
             "type": "item",
             "settings": {
@@ -212,15 +201,32 @@
               "title": "TINCTURE",
               "subheading": "2000mg + 4000mg",
               "heading": "Sleeping Beauty",
-              "content": "<p>Full spectrum CBD powers this&nbsp;all natural, highly potent sleep aid. The product is formulated with a unique blend of 5 different terpenes that work synergistically to&nbsp;relax the body into a deep sleep. &nbsp;Valerian Root and Skullcap&nbsp;enhance the&nbsp;formulation for super effect.&nbsp;<\/p>\n<p><a href=\"\/products\/sleeping-beauty-tincture-4000mg\" title=\"Sleeping Beauty Tincture\"><strong>Shop Now<\/strong><\/a><\/p>"
+              "content": "<p>Full spectrum CBD powers this&nbsp;all natural, highly potent sleep aid. The product is formulated with a unique blend of 5 different terpenes that work synergistically to&nbsp;relax the body into a deep sleep. &nbsp;Valerian Root and Skullcap&nbsp;enhance the&nbsp;formulation for super effect.&nbsp;<\/p>\n<p><a href=\"\/products\/sleeping-beauty-tincture-4000mg\" title=\"Sleeping Beauty Tincture\"><strong>Shop Now<\/strong><\/a><\/p>",
+              "link_text": "",
+              "link_url": ""
+            }
+          },
+          "item-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/serum.jpg",
+              "apply_overlay": false,
+              "title": "SERUM",
+              "subheading": "",
+              "heading": "BLEMISH-BE-GONE",
+              "content": "<p>Anti-inflammatory CBD powers an extraordinary blend of natural ingredients including Burdock Root, Pine Bark Extract, Algae, Irish Moss, Melaleuca, Rosemary and Tea Tree oil to create and &nbsp;support healthy skin that is inhospitable to breakouts. &nbsp;The formula enables exfoliation of irritants and simultaneously hydrates the skin. &nbsp;<\/p>\n<p><a href=\"\/products\/blemish-be-gone-serum\" title=\"Blemish-Be-Gone Serum\"><strong>Shop Now<\/strong><\/a><\/p>",
+              "link_text": "",
+              "link_url": ""
             }
           }
         },
         "block_order": [
-          "item-1",
-          "item-0"
+          "item-0",
+          "item-1"
         ],
         "settings": {
+          "title": "Our Products",
+          "section_bg_color": "#f6f6f6",
           "text_color": "#ffffff"
         }
       },
@@ -452,18 +458,6 @@
           "show_share_buttons": true
         }
       },
-      "1576222198951": {
-        "type": "text-with-image",
-        "settings": {
-          "subheading": "",
-          "title": "HIGH QUALITY HEMP",
-          "image": "shopify:\/\/shop_images\/sun.jpg",
-          "image_position": "right",
-          "content": "<p>SUN GROWN IN OREGON<br>ORGANIC FARMING PRACTICES<br> MANUFACTURED IN USA<br> PESTICIDE FREE<br> THIRD PARTY TESTING<br>GROWN&nbsp;NATURALLY FROM SEED TO SALE&nbsp;<\/p>",
-          "link_text": "CERTIFICATES OF ANALYSIS",
-          "link_url": "shopify:\/\/pages\/certificates-of-analysis"
-        }
-      },
       "1576223123206": {
         "type": "instagram-feed",
         "settings": {
@@ -473,21 +467,6 @@
           "image_count": 6,
           "button_text": "",
           "button_url": ""
-        }
-      },
-      "1576223252582": {
-        "type": "image-with-text-block",
-        "disabled": true,
-        "settings": {
-          "image": "shopify:\/\/shop_images\/sleep.jpg",
-          "background": "#ffffff",
-          "text_color": "#0b2354",
-          "block_size": "large",
-          "title": "sleep mantra",
-          "content": "<p>Angels bless and angels keep,&nbsp;<br>angels guard me while I sleep,&nbsp;<br>bless my heart and bless my home,&nbsp;<br>bless my spirit as I roam,<br>guide and guard me through the night,&nbsp;<br>and wake me with the morning's light.<\/p>",
-          "button_label": "",
-          "button_link": "",
-          "show_parallax": true
         }
       },
       "1576229674189": {
@@ -501,18 +480,6 @@
           "content": "<p>Science shows us that sleep is vital to our total health.<br>Sleep has a powerful effect on the immune system. <br>Sleep is essential to our overall well being.&nbsp;&nbsp;<\/p>\n<p><\/p>\n<p>Faith In Flower aims to lull you into a you a peaceful, deep slumber. Settle your mind, slip into sweet dreams and sleep like a baby.<\/p>",
           "link_text": "Learn More",
           "link_url": "shopify:\/\/blogs\/learn\/a-well-spent-day-brings-happy-sleep"
-        }
-      },
-      "1576230392392": {
-        "type": "text-with-image",
-        "settings": {
-          "subheading": "BLEMISH-BE-GONE SERUM",
-          "title": "YOU ARE BEAUTIFUL",
-          "image": "shopify:\/\/shop_images\/beauty.jpg",
-          "image_position": "left",
-          "content": "<p>Skin-esteem is directly linked to our perceived attractiveness, which is inextricably linked to self-esteem.&nbsp;&nbsp;<\/p>\n<p>Psychological and social distress is a natural, normal response to skin symptoms.&nbsp;&nbsp;<\/p>\n<p>We asked photographer Alex Moore to conduct a social experiment in the streets of Manhattan that explored how positive words help us access inner strength translating to outer beauty.<\/p>",
-          "link_text": "Learn More",
-          "link_url": "shopify:\/\/blogs\/learn\/redefining-our-relationship-with-our-skin-you-are-more-than-just-your-acne"
         }
       },
       "1576231410607": {
@@ -543,6 +510,7 @@
           "1576483502632-0"
         ],
         "settings": {
+          "bgcolor": "#f6f6f6",
           "subheading": "CBD 101",
           "title": "THE BASICS",
           "show_category": true,
@@ -550,30 +518,105 @@
           "button_text": ""
         }
       },
-      "1577032194655": {
-        "type": "sleep_mantra_text_overlay",
+      "1579271002350": {
+        "type": "rich-text",
         "settings": {
-          "subheading": "sleeping beauty tincture",
+          "bgcolor": "#2f6971",
           "title": "",
-          "image": "shopify:\/\/shop_images\/sleep_ac8ba2a1-4c19-4ef6-a0e5-1d8597433dea.jpg",
-          "ovtitle": "SLEEP MANTRA",
-          "image_position": "right",
-          "content": "<p>Science shows us that sleep is vital to our total health.<br>Sleep has a powerful effect on the immune system.&nbsp;<br>Sleep is essential to our overall well being.&nbsp;&nbsp;<\/p>\n<p><\/p>\n<p>Faith In Flower aims to lull you into a you a peaceful, deep slumber. Settle your mind, slip into sweet dreams and sleep like a baby.<\/p>",
-          "ovcontent": "<p>Angels bless and angels keep,<br>angels guard me white I sleep, <br>bless my heart and less my home,<br>bless my spirit as&nbsp; I roam,<br>guide and guard me thought the night,<br>and wake me with the morning's light.<\/p>",
-          "link_text": "Learn More",
-          "link_url": "shopify:\/\/blogs\/learn\/a-well-spent-day-brings-happy-sleep"
+          "heading-color": "#000000",
+          "content": "<h2 style=\"color: white; margin-top: 0;\">Founded on the power of <span style=\"color: #e5c251;\">Flower<\/span>, graounded in <span style=\"color: #e5c251;\">hemp<\/span>, <span style=\"color: #e5c251;\">hope<\/span>, and higher <span style=\"color: #e5c251;\">learning<\/span>\n<\/h2>",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "1579277191842": {
+        "type": "image-with-text",
+        "blocks": {
+          "1579277191842-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sweet-dreams.jpg",
+              "apply_overlay": false,
+              "title": "",
+              "subheading": "sleeping beauty tincture",
+              "heading": "Sweet dreams",
+              "content": "<p>Science shows us that sleep is vital to our total health. Sleep has a powerful effect on the immune system. Sleep is essential to our overall well being.<\/p>\n<p>Faith In Flower aims to lull you into a you a peaceful, deep slumber. Settle your mind, slip into sweet dreams and sleep like a baby.<\/p>\n<p><\/p>",
+              "link_text": "Learn More",
+              "link_url": "shopify:\/\/blogs\/learn\/correct-dosing"
+            }
+          }
+        },
+        "block_order": [
+          "1579277191842-0"
+        ],
+        "settings": {
+          "title": "Sweet Dreams",
+          "section_bg_color": "#d5dde5",
+          "text_color": "#ffffff"
+        }
+      },
+      "1579277339387": {
+        "type": "image-with-text",
+        "blocks": {
+          "1579277339387-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/beauty.jpg",
+              "apply_overlay": false,
+              "title": "",
+              "subheading": "blemish-be-gone-serum",
+              "heading": "You are beautiful",
+              "content": "<p>Skin-esteem is directly linked to our perceived attractiveness, which is inextricably linked to self-esteem. Psychological and social distress is a natural, normal response to skin symptoms.<\/p>\n<p><br>We asked photographer Alex Moore to conduct a social experiment in the streets of Manhattan that explored how positive words help us access inner strength translating to outer beauty.<\/p>\n<p><\/p>",
+              "link_text": "Learn More",
+              "link_url": "shopify:\/\/blogs\/learn\/redefining-our-relationship-with-our-skin-you-are-more-than-just-your-acne"
+            }
+          }
+        },
+        "block_order": [
+          "1579277339387-0"
+        ],
+        "settings": {
+          "title": "You are beautiful",
+          "section_bg_color": "#f7f7f7",
+          "text_color": "#ffffff"
+        }
+      },
+      "1579277347172": {
+        "type": "image-with-text",
+        "blocks": {
+          "1579277347172-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sun.jpg",
+              "apply_overlay": false,
+              "title": "",
+              "subheading": "conscious & sustainable",
+              "heading": "high quality hemp",
+              "content": "<p>Sun Grown in Oregon. <br>Organic Farming Practices. <br>Manufactured in The USA. <br>Pesticide Free. <br>Third-Party Testing. <br>From Seed to Sale with Love.<\/p>\n<p><\/p>",
+              "link_text": "Certificates of Analysis",
+              "link_url": "shopify:\/\/blogs\/learn\/top-10-qs-about-cbd"
+            }
+          }
+        },
+        "block_order": [
+          "1579277347172-0"
+        ],
+        "settings": {
+          "title": "High Quality Hemp",
+          "section_bg_color": "#2f6971",
+          "text_color": "#ffffff"
         }
       }
     },
     "content_for_index": [
       "slideshow",
       "timeline",
+      "1579271002350",
+      "1579277191842",
+      "1579277339387",
+      "1579277347172",
       "1576231410607",
       "1576229674189",
-      "1577032194655",
-      "1576230392392",
-      "1576223252582",
-      "1576222198951",
       "1576483502632",
       "1576223123206"
     ]

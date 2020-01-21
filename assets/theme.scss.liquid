@@ -5562,15 +5562,15 @@ select::-ms-expand {
 }
 
 @include av-mq('phone') {
-  .TableWrapper {
+  /*.TableWrapper {
     margin-right: -24px;
     margin-left: -24px;
-  }
+  }*/
 
-  .TableWrapper > .Table {
+  /*.TableWrapper > .Table {
     padding-right: 24px;
     padding-left: 24px;
-  }
+  }*/
 }
 
 @include av-mq('desk') {
@@ -11570,7 +11570,7 @@ h2.ArticleItem__Title.Heading.u-h2 {
   }
 }
 @media screen and (max-width: 640px) {
-  .SectionHeader--center {
+  .SectionHeader--center{
     text-align: left;
   }
 
@@ -11792,6 +11792,22 @@ h2.ArticleItem__Title.Heading.u-h2 {
           height: 520px;
         }
       }
+    }
+  }
+}
+.question-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  td {
+    padding-left: 0;
+    padding: 18px 10px;
+    border-bottom: 1px solid grey;
+    word-wrap: break-word;
+    &:first-child {
+      width: 120px;
+      padding-left: 0;  
     }
   }
 }

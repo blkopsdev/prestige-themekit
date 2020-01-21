@@ -2,3 +2,8 @@ development:
   password: a7d3ddf69f84b0e116fdcab2f357f133
   theme_id: "84299153543"
   store: faith-in-flower.myshopify.com
+
+production:
+  password: a7d3ddf69f84b0e116fdcab2f357f133
+  theme_id: "80858808455"
+  store: faith-in-flower.myshopify.com
