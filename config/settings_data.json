@@ -83,11 +83,11 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enable_bar": false,
+          "enable_bar": true,
           "home_page_only": true,
-          "background": "#2d75b7",
-          "text_color": "#fafafa",
-          "content": "Announce something here",
+          "background": "#006bb1",
+          "text_color": "#ffffff",
+          "content": "FREE SHIPPING on all orders within the contiguous US!",
           "link": ""
         }
       },
@@ -510,7 +510,7 @@
           "1576483502632-0"
         ],
         "settings": {
-          "bgcolor": "#f6f6f6",
+          "bgcolor": "#eaf5fd",
           "subheading": "CBD 101",
           "title": "THE BASICS",
           "show_category": true,
@@ -521,10 +521,10 @@
       "1579271002350": {
         "type": "rich-text",
         "settings": {
-          "bgcolor": "#2f6971",
+          "bgcolor": "#389b90",
           "title": "",
           "heading-color": "#000000",
-          "content": "<h2 style=\"color: white; margin-top: 0;\">Founded on the power of <span style=\"color: #e5c251;\">Flower<\/span>, graounded in <span style=\"color: #e5c251;\">hemp<\/span>, <span style=\"color: #e5c251;\">hope<\/span>, and higher <span style=\"color: #e5c251;\">learning<\/span>\n<\/h2>",
+          "content": "<h2 style=\"color: white; margin-top: 0;\">Founded on the power of <span style=\"color: #e5c251;\">Flower<\/span>.<br> grounded in <span style=\"color: #e5c251;\">hemp<\/span>, <span style=\"color: #e5c251;\">hope<\/span>, and higher <span style=\"color: #e5c251;\">learning<\/span>.\n<\/h2>",
           "link_text": "",
           "link_url": ""
         }
@@ -540,9 +540,9 @@
               "title": "",
               "subheading": "sleeping beauty tincture",
               "heading": "Sweet dreams",
-              "content": "<p>Science shows us that sleep is vital to our total health. Sleep has a powerful effect on the immune system. Sleep is essential to our overall well being.<\/p>\n<p>Faith In Flower aims to lull you into a you a peaceful, deep slumber. Settle your mind, slip into sweet dreams and sleep like a baby.<\/p>\n<p><\/p>",
+              "content": "<p>Science shows us that sleep is vital to our total health. Sleep has a powerful effect on the immune system. Sleep is essential to our overall well being.<\/p>\n<p>Faith In Flower aims to lull you into a peaceful, deep slumber. Settle your mind, slip into sweet dreams and sleep like a baby.<\/p>\n<p><\/p>",
               "link_text": "Learn More",
-              "link_url": "shopify:\/\/blogs\/learn\/correct-dosing"
+              "link_url": "shopify:\/\/blogs\/learn\/a-well-spent-day-brings-happy-sleep"
             }
           }
         },
@@ -551,7 +551,7 @@
         ],
         "settings": {
           "title": "Sweet Dreams",
-          "section_bg_color": "#d5dde5",
+          "section_bg_color": "#eaf5fd",
           "text_color": "#ffffff"
         }
       },
@@ -592,9 +592,9 @@
               "title": "",
               "subheading": "conscious & sustainable",
               "heading": "high quality hemp",
-              "content": "<p>Sun Grown in Oregon. <br>Organic Farming Practices. <br>Manufactured in The USA. <br>Pesticide Free. <br>Third-Party Testing. <br>From Seed to Sale with Love.<\/p>\n<p><\/p>",
+              "content": "<p>Sun Grown in Oregon. <br>Organic Farming Practices. <br>Manufactured in The USA. <br>Pesticide Free. <br>Third-Party Testing. <br>Grown Naturally from Seed to Sale.<\/p>\n<p><\/p>",
               "link_text": "Certificates of Analysis",
-              "link_url": "shopify:\/\/blogs\/learn\/top-10-qs-about-cbd"
+              "link_url": "shopify:\/\/pages\/certificates-of-analysis"
             }
           }
         },
@@ -603,7 +603,7 @@
         ],
         "settings": {
           "title": "High Quality Hemp",
-          "section_bg_color": "#2f6971",
+          "section_bg_color": "#389b90",
           "text_color": "#ffffff"
         }
       }

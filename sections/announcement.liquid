@@ -4,10 +4,10 @@
       <div class="AnnouncementBar">
         <div class="AnnouncementBar__Wrapper">
           <p class="AnnouncementBar__Content Heading">
-            {%- if section.settings.link -%}
-              <a href="{{ section.settings.link }}">{{ section.settings.content | escape }}</a>
-            {%- else -%}
+            
               {{ section.settings.content | escape }}
+            {%- if section.settings.link -%}
+              <a href="{{ section.settings.link }}" class="announcement-bar-link">{{ section.settings.link_text | escape }}</a>
             {%- endif -%}
           </p>
         </div>
@@ -60,6 +60,12 @@
       "id": "content",
       "label": "Text",
       "default": "Announce something here"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Text",
+      "default": "Shop Now"
     },
     {
       "type": "url",

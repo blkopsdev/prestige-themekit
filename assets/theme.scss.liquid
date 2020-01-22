@@ -4232,14 +4232,16 @@ select::-ms-expand {
 }
 
 .AnnouncementBar__Content {
+  font-size: 15px;
+  text-transform: none;
   color: inherit;
   margin: 0;
 }
 
 @include av-mq('tablet-and-up') {
-  .AnnouncementBar {
+/*  .AnnouncementBar {
     font-size: to-size(11px);
-  }
+  }*/
 }
 
 /**
@@ -11810,4 +11812,7 @@ h2.ArticleItem__Title.Heading.u-h2 {
       padding-left: 0;  
     }
   }
+}
+.announcement-bar-link {
+  text-decoration: underline !important;
 }
