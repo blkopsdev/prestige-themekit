@@ -85,10 +85,11 @@
         "settings": {
           "enable_bar": true,
           "home_page_only": true,
-          "background": "#006bb1",
-          "text_color": "#ffffff",
+          "background": "#ffffff",
+          "text_color": "#006bb1",
           "content": "FREE SHIPPING on all orders within the contiguous US!",
-          "link": ""
+          "link_text": "Shop Now",
+          "link": "shopify:\/\/collections\/all"
         }
       },
       "header": {
@@ -148,9 +149,13 @@
           "slide-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/hero-2_5471e8c1-69aa-41b5-89fc-b4329d5ba9cf.jpg",
+              "image": "",
+              "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/7230\/7079\/files\/Night_Composition_8.mp4?1546",
+              "use_video": true,
               "mobile_image": "",
               "apply_overlay": false,
+              "featured_image": "shopify:\/\/shop_images\/tincture1.png",
+              "featured_image_position": "middleCenter",
               "content_position": "bottomCenter",
               "subheading": "CBD PRODUCTS TACKLING PROBLEMS IN A HEALTHIER WAY",
               "title": "",
@@ -160,12 +165,16 @@
               "button_2_link": ""
             }
           },
-          "1577438266336": {
+          "1579745916245": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/hero-1_fa87cb42-cd84-4851-b7e1-5fb2f5a03fb9.jpg",
+              "image": "",
+              "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/7230\/7079\/files\/Day_Composition_RVF.mp4?1546",
+              "use_video": true,
               "mobile_image": "",
               "apply_overlay": false,
+              "featured_image": "shopify:\/\/shop_images\/serum.png",
+              "featured_image_position": "middleCenter",
               "content_position": "bottomCenter",
               "subheading": "CBD PRODUCTS TACKLING PROBLEMS IN A HEALTHIER WAY",
               "title": "",
@@ -178,13 +187,13 @@
         },
         "block_order": [
           "slide-0",
-          "1577438266336"
+          "1579745916245"
         ],
         "settings": {
           "show_fullscreen": true,
           "show_arrow": false,
           "autoplay": true,
-          "cycle_speed": 5,
+          "cycle_speed": 3,
           "text_color": "#ffffff",
           "button_color": "#363636",
           "button_background": "#ffffff"
@@ -510,7 +519,7 @@
           "1576483502632-0"
         ],
         "settings": {
-          "bgcolor": "#eaf5fd",
+          "bgcolor": "#cae4ff",
           "subheading": "CBD 101",
           "title": "THE BASICS",
           "show_category": true,
@@ -551,7 +560,7 @@
         ],
         "settings": {
           "title": "Sweet Dreams",
-          "section_bg_color": "#eaf5fd",
+          "section_bg_color": "#cae4ff",
           "text_color": "#ffffff"
         }
       },
