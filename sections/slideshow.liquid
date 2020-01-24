@@ -40,7 +40,7 @@
           {%- endif -%}
           {% if block.settings.video_url and block.settings.use_video %}
           <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% unless section.settings.show_fullscreen %}AspectRatio AspectRatio--withFallback{% endunless %}">
-            <video class="Slideshow__Video" autoplay muted loop>
+            <video class="Slideshow__Video" muted loop playsinline>
               <source src="{{ block.settings.video_url }}" type="video/mp4">
             </video>
           </div>
@@ -88,12 +88,10 @@
             </div>
           {%- endif -%}
           {%- capture slideshow_content -%}
-            {%- if block.settings.subheading != blank -%}
-              <h3 class="SectionHeader__SubHeading Heading u-h6">{{ block.settings.subheading | escape }}</h3>
-            {%- endif -%}
-
             {%- if block.settings.title != blank -%}
-              <h2 class="SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1">{{ block.settings.title | escape }}</h2>
+              <h3 class="SectionHeader__Phone__SubHeading SectionHeader__SubHeading Heading u-h6" style="display: none;">{{ block.settings.title | escape }}</h3>
+            
+              <h2 class="SectionHeader__Desktop__SubHeading SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1">{{ block.settings.title | escape }}</h2>
             {%- endif -%}
 
             {%- if block.settings.button_1_text != blank and block.settings.button_2_text != blank -%}
@@ -149,8 +147,16 @@
 
   <span id="section-{{ section.id }}-end" class="Anchor"></span>
 </section>
-
+<script type="text/javascript">
+  var videos = document.getElementsByTagName('video'); 
+  for (var i = videos.length - 1; i >= 0; i--) {
+    videos[i].play();
+  }
+</script>
 <style>
+  #section-{{ section.id }} .Heading {
+    text-shadow: 2px 2px 4px #000000;
+  }
   #section-{{ section.id }} .Heading,
    #section-{{ section.id }} .flickity-page-dots {
     color: {{ section.settings.text_color }};
@@ -337,15 +343,9 @@
         },
         {
           "type": "text",
-          "id": "subheading",
-          "label": "Sub-heading",
-          "default": "Slide title"
-        },
-        {
-          "type": "text",
           "id": "title",
           "label": "Heading",
-          "default": "Tell your story"
+          "default": "Slide Title"
         },
         {
           "type": "header",
