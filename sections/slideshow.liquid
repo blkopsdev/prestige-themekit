@@ -39,7 +39,7 @@
             </div>
           {%- endif -%}
           {% if block.settings.video_url and block.settings.use_video %}
-          <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% unless section.settings.show_fullscreen %}AspectRatio AspectRatio--withFallback{% endunless %}">
+          <div class="Slideshow__ImageContainer Image--contrast {% unless section.settings.show_fullscreen %}AspectRatio AspectRatio--withFallback{% endunless %}">
             <video class="Slideshow__Video" muted loop playsinline>
               <source src="{{ block.settings.video_url }}" type="video/mp4">
             </video>
@@ -152,10 +152,29 @@
   for (var i = videos.length - 1; i >= 0; i--) {
     videos[i].play();
   }
+  {% comment %}
+  {% if section.settings.autoplay %}
+  var i = 0;
+  setInterval(function(){
+    
+    var slides = document.getElementsByClassName('Slideshow__Slide');
+    var dots = document.getElementsByClassName('dot');
+
+    i = (i + 1) % slides.length;
+
+    for(var j = 0; j < slides.length; j++){
+      slides[j].classList.remove('is-selected');
+      dots[j].classList.remove('is-selected');
+    }
+    slides[i].classList.add('is-selected');
+    dots[i].classList.add('is-selected');
+  }, {{ section.settings.cycle_speed | times: 1000 }});
+  {% endif %}
+  {% endcomment %}
 </script>
 <style>
   #section-{{ section.id }} .Heading {
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 4px 4px 4px #000000;
   }
   #section-{{ section.id }} .Heading,
    #section-{{ section.id }} .flickity-page-dots {

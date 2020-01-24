@@ -3358,7 +3358,7 @@ select::-ms-expand {
   height: 100%;
   left: 0;
   top: 0;
-  background-image: linear-gradient(to top, rgba(#040404, 0.65), rgba(#363636, 0.2));
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0));;
 }
 
 .Image--contrast > * {
@@ -10890,9 +10890,9 @@ $vertical-spacing-two-products-per-row  : 0px;
     transition: none;
   }
 
-  .Slideshow__Slide.is-selected {
+  /*.Slideshow__Slide.is-selected {
     visibility: hidden;
-  }
+  }*/
 }
 
 .Slideshow__ImageContainer {
@@ -11893,4 +11893,19 @@ h2.ArticleItem__Title.Heading.u-h2 {
   .Slideshow__Featured__Image {
     max-width: 400px;
   }
+}
+.HomeHeader .Heading
+{
+  color: white;
+}
+.HomeHeader:hover .Heading {
+  color:#0b2354;
+}
+.HomeHeader .HorizontalList__Item.is-active .Header__LinkSpacer::after {
+  opacity: 0 !important;
+  transform: scale(1, 1);
+}
+.HomeHeader:hover .HorizontalList__Item.is-active .Header__LinkSpacer::after {
+  opacity: 1 !important;
+  transform: scale(1, 1);
 }

@@ -157,7 +157,6 @@
               "featured_image": "shopify:\/\/shop_images\/tincture1.png",
               "featured_image_position": "middleCenter",
               "content_position": "bottomCenter",
-              "subheading": "",
               "title": "CBD PRODUCTS TACKLING PROBLEMS IN A HEALTHIER WAY",
               "button_1_text": "SHOP SLEEPING BEAUTY DROPS",
               "button_1_link": "shopify:\/\/products\/sleeping-beauty-tincture-4000mg",
@@ -176,7 +175,6 @@
               "featured_image": "shopify:\/\/shop_images\/serum.png",
               "featured_image_position": "middleCenter",
               "content_position": "bottomCenter",
-              "subheading": "",
               "title": "CBD PRODUCTS TACKLING PROBLEMS IN A HEALTHIER WAY",
               "button_1_text": "SHOP BLEMISH-BE-GONE SERUM",
               "button_1_link": "shopify:\/\/products\/blemish-be-gone-serum",
@@ -193,7 +191,7 @@
           "show_fullscreen": true,
           "show_arrow": false,
           "autoplay": true,
-          "cycle_speed": 3,
+          "cycle_speed": 5,
           "text_color": "#ffffff",
           "button_color": "#363636",
           "button_background": "#ffffff"
@@ -750,7 +748,6 @@
               "settings": {
                 "apply_overlay": true,
                 "content_position": "bottomLeft",
-                "subheading": "Slide title",
                 "title": "Tell your story"
               }
             },
@@ -759,7 +756,6 @@
               "settings": {
                 "apply_overlay": true,
                 "content_position": "bottomLeft",
-                "subheading": "Slide title",
                 "title": "Tell your story"
               }
             }
@@ -1142,7 +1138,6 @@
               "settings": {
                 "apply_overlay": true,
                 "content_position": "bottomLeft",
-                "subheading": "Slide title",
                 "title": "Tell your story"
               }
             },
@@ -1151,7 +1146,6 @@
               "settings": {
                 "apply_overlay": true,
                 "content_position": "bottomLeft",
-                "subheading": "Slide title",
                 "title": "Tell your story"
               }
             }
@@ -1535,7 +1529,6 @@
               "settings": {
                 "apply_overlay": true,
                 "content_position": "bottomLeft",
-                "subheading": "Slide title",
                 "title": "Tell your story"
               }
             },
@@ -1544,7 +1537,6 @@
               "settings": {
                 "apply_overlay": true,
                 "content_position": "bottomLeft",
-                "subheading": "Slide title",
                 "title": "Tell your story"
               }
             }
